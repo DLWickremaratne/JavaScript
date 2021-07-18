@@ -28,7 +28,14 @@ console.log("Exam results ADMS:", admin.results.ADMS);
 
 
 //2 bracket notation
-//more control
+//more control(Ex:variable as a property name )
+
+//
+console.log("The Age value: ", admin["age"]);
+
+//
+var query = "name";
+console.log("The Age value: ", admin["name"]);
 
 
 
