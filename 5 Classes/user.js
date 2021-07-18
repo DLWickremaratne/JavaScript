@@ -5,37 +5,37 @@
  * Class expression:  const Name = class {}
  */
 
- class Backpack {
+ class User {
     constructor(
       // Defines parameters:
       name,
-      volume,
-      color,
-      pocketNum,
-      strapLengthL,
-      strapLengthR,
-      lidOpen
+      age,
+      address,
+      phoneNum,
+      LengthL,
+      LengthR,
+      Online
     ) {
       // Define properties:
       this.name = name;
-      this.volume = volume;
-      this.color = color;
-      this.pocketNum = pocketNum;
-      this.strapLength = {
-        left: strapLengthL,
-        right: strapLengthR,
+      this.age = age;
+      this.address = address;
+      this.phoneNum = phoneNum;
+      this.Length = {
+        left: LengthL,
+        right: LengthR,
       };
-      this.lidOpen = lidOpen;
+      this.Online = Online;
     }
     // Add methods like normal functions:
     toggleLid(lidStatus) {
-      this.lidOpen = lidStatus;
+      this.Online = lidStatus;
     }
     newStrapLength(lengthLeft, lengthRight) {
-      this.strapLength.left = lengthLeft;
-      this.strapLength.right = lengthRight;
+      this.Length.left = lengthLeft;
+      this.Length.right = lengthRight;
     }
   }
   
-  export default Backpack;
+  export default User;
   
