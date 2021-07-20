@@ -5,9 +5,19 @@
  * Class expression:  const Name = class {}
  */
 
+
+/*
+Classes work as templates for an object type,
+the object automatically gets all the properties,and methoad of that class,
+that means we can change the properties of the class or the methoads of the class 
+and those changes apply to every single instance of that class
+*/
+
  class User {
     constructor(
       // Defines parameters:
+      //constructor is a methad inside the class
+      
       name,
       age,
       address,

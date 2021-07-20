@@ -10,6 +10,7 @@ const admin = {
     },
 
     //funtion is inside an object it is called a method
+    //property changing features inside objects
     semStart: false,
     semid: function (semStatus) {
 

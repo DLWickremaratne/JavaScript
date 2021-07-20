@@ -1,8 +1,10 @@
 /**
  * Create a class for the Backpack object type.
  */
- import User from "./user.js";
 
+ //this is hw we use a class to create a new object
+
+ import User from "./user.js";
  const dhanith = new User(
    "Dhanith Lakjaya",
    23,
